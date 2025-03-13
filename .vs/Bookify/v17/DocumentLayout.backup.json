@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\apartments\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\bookings\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\bookings\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\apartments\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\apartments\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\apartments\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\apartments\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\apartments\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\apartments\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|c:\\users\\muril\\documents\\workspace\\bookify\\bookify.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A5C874-53E1-4B76-B985-7E541DC2FD33}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Money.cs",
-              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Money.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Money.cs",
-              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Money.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Money.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Abstractions\\Entity.cs",
+              "RelativeDocumentMoniker": "Bookify.Domain\\Abstractions\\Entity.cs",
+              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Abstractions\\Entity.cs",
+              "RelativeToolTip": "Bookify.Domain\\Abstractions\\Entity.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADgvxUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:36:25.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Currency.cs",
-              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Currency.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Currency.cs",
-              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Currency.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Currency.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:32:37.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Description.cs",
-              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Description.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Description.cs",
-              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Description.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Description.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:31:30.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Name.cs",
-              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Name.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Name.cs",
-              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Name.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Name.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:12:09.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Address.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Address.cs",
-              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Address.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:06:50.757Z",
+              "WhenOpened": "2025-03-13T01:05:47.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Apartment.cs",
-              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Apartment.cs",
-              "RelativeDocumentMoniker": "Bookify.Domain\\Apartments\\Apartment.cs",
-              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Apartments\\Apartment.cs",
-              "RelativeToolTip": "Bookify.Domain\\Apartments\\Apartment.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Bookings\\Booking.cs",
+              "RelativeDocumentMoniker": "Bookify.Domain\\Bookings\\Booking.cs",
+              "ToolTip": "C:\\Users\\muril\\Documents\\Workspace\\Bookify\\Bookify.Domain\\Bookings\\Booking.cs",
+              "RelativeToolTip": "Bookify.Domain\\Bookings\\Booking.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAgwBoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:57:21.51Z",
+              "WhenOpened": "2025-03-13T00:13:25.043Z",
               "EditorCaption": ""
             }
           ]
