@@ -3,7 +3,7 @@
 namespace Bookify.Application.Bookings.ReserveBooking;
 
 public record ReserveBookingCommand(
-    Guid AparmentId,
+    Guid ApartmentId,
     Guid UserId,
     DateOnly StartDate,
     DateOnly EndDate) : ICommand<Guid>;

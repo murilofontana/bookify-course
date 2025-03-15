@@ -40,7 +40,7 @@ internal sealed class ReserveBookingCommandHandler : ICommandHandler<ReserveBook
             return Result.Failure<Guid>(UserErrors.NotFound);
         }
 
-        var apartment = await _apartmentRepository.GetByIdAsync(request.AparmentId, cancellationToken);
+        var apartment = await _apartmentRepository.GetByIdAsync(request.ApartmentId, cancellationToken);
 
         if (apartment == null)
         {
