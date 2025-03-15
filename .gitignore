@@ -50,6 +50,7 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+.containers
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
