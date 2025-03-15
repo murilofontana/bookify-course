@@ -17,7 +17,7 @@ public class PricingService
         {
             percentageUpCharge += amenity switch
             {
-                Amenity.GardenView or Amenity.MoutainView => 0.5m,
+                Amenity.GardenView or Amenity.MountainView => 0.5m,
                 Amenity.AirConditionin => 0.01M,
                 Amenity.Parking => 0.01M,
                 _ => 0

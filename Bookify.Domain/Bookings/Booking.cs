@@ -7,6 +7,7 @@ namespace Bookify.Domain.Bookings;
 
 public sealed class Booking : Entity
 {
+
     private Booking(Guid id, Guid apartmentId, Guid userId, DateRange dateRange, Money priceForPeriod, Money cleaningFee, Money amenitiesUpCharge, Money totalPrice, BookingStatus status, DateTime createdOnUtc) : base(id)
     {
         ApartmentId = apartmentId;
@@ -18,6 +19,10 @@ public sealed class Booking : Entity
         TotalPrice = totalPrice;
         Status = status;
         CreatedOnUtc = createdOnUtc;
+    }
+
+    public Booking()
+    {
     }
 
     public Guid ApartmentId { get; private set; }

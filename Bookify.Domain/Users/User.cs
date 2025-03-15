@@ -5,6 +5,10 @@ namespace Bookify.Domain.Users;
 
 public class User : Entity
 {
+    public User()
+    {
+    }
+
     private User(Guid id, FirstName firstName, LastName lastName, Email email) : base(id)
     {
         FirstName = firstName;

@@ -10,6 +10,6 @@ public enum Amenity
     Gym,
     Spa,
     Terrace,
-    MoutainView,
+    MountainView,
     GardenView
 }
