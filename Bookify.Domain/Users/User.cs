@@ -19,6 +19,7 @@ public class User : Entity
     public FirstName FirstName { get; private set; }
     public LastName LastName { get; private set; }
     public Email Email { get; private set; }
+    public string IdentityId { get; private set; }  = String.Empty;
 
     // Wrap the constructor
     // - Encapsulute the constrcutor logic
@@ -30,5 +31,10 @@ public class User : Entity
         user.RaiseDomainEvent(new UserCreatedDomainEvent(user.Id));
 
         return user;
+    }
+
+    public void SetIdentityId(string identityId)
+    {
+        IdentityId = identityId;
     }
 }
