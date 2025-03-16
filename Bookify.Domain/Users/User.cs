@@ -5,6 +5,7 @@ namespace Bookify.Domain.Users;
 
 public class User : Entity
 {
+    private readonly List<Role> _roles = new();
     public User()
     {
     }
@@ -19,7 +20,9 @@ public class User : Entity
     public FirstName FirstName { get; private set; }
     public LastName LastName { get; private set; }
     public Email Email { get; private set; }
-    public string IdentityId { get; private set; }  = String.Empty;
+    public string IdentityId { get; private set; }  = string.Empty;
+
+    public IReadOnlyCollection<Role> Roles => _roles.ToList();
 
     // Wrap the constructor
     // - Encapsulute the constrcutor logic
@@ -29,6 +32,8 @@ public class User : Entity
         var user = new User(Guid.NewGuid(), firstName, lastName, email);
 
         user.RaiseDomainEvent(new UserCreatedDomainEvent(user.Id));
+
+        user._roles.Add(Role.Registered);
 
         return user;
     }
