@@ -17,6 +17,8 @@ public static class DependencyInjection
             configuration.AddOpenBehavior(typeof(LoggingBehavior<,>));
 
             configuration.AddOpenBehavior(typeof(ValidationBehavior<,>));
+
+            configuration.AddOpenBehavior(typeof(QueryCachingBehavior<,>));
         });
 
         //Get all the validator from assembly and inject them
