@@ -9,14 +9,13 @@ public sealed class Apartment : Entity
     {
     }
 
-    public Apartment(Guid id, Name name, Description description, Address address, Money price, Money cleaningFeeAmount, DateTime? lastBookedOnUtc, List<Amenity> amenities) : base(id)
+    public Apartment(Guid id, Name name, Description description, Address address, Money price, Money cleaningFeeAmount, List<Amenity> amenities) : base(id)
     {
         Name = name;
         Description = description;
         Address = address;
         Price = price;
         CleaningFeeAmount = cleaningFeeAmount;
-        LastBookedOnUtc = lastBookedOnUtc;
         Amenities = amenities;
     }
 
