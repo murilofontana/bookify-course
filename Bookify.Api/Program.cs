@@ -45,7 +45,7 @@ if (app.Environment.IsDevelopment())
 
     app.ApplyMigrations();
 
-    //app.SeedData();
+    app.SeedData();
 }
 
 app.UseHttpsRedirection();
@@ -69,3 +69,5 @@ app.MapHealthChecks("health", new HealthCheckOptions
 
 
 app.Run();
+
+public partial class Program;
