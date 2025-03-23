@@ -22,7 +22,7 @@ public static class DependencyInjection
         });
 
         //Get all the validator from assembly and inject them
-        services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
+        services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly, includeInternalTypes: true);
 
         services.AddTransient<PricingService>();
 
