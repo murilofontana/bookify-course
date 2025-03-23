@@ -6,7 +6,7 @@ namespace Bookify.Domain.Reviews;
 
 public sealed class Review : Entity
 {
-    public Review()
+    private Review()
     {
     }
 

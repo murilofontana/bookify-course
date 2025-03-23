@@ -6,7 +6,7 @@ namespace Bookify.Domain.Users;
 public class User : Entity
 {
     private readonly List<Role> _roles = new();
-    public User()
+    private User()
     {
     }
 
